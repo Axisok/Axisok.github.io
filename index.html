@@ -11,8 +11,8 @@
 <body>
 	<nav>
 		<menu>
-			<li><button class="nav-button active" onclick="document.querySelectorAll('button.nav-button').forEach(e => {e.classList.remove('active'); e.contentWindow.scrollTo(0,0)}); document.querySelectorAll('iframe.page-content').forEach(e => e.classList.remove('active')); this.classList.add('active'); document.getElementById('about-page').classList.add('active');">About me</button></li>
-			<li><button class="nav-button" onclick="document.querySelectorAll('button.nav-button').forEach(e => {e.classList.remove('active'); e.contentWindow.scrollTo(0,0)}); document.querySelectorAll('iframe.page-content').forEach(e => e.classList.remove('active')); this.classList.add('active'); document.getElementById('projects-page').classList.add('active');">Projects</button></li>
+			<li><button class="nav-button active" onclick="document.querySelectorAll('button.nav-button').forEach(e => e.classList.remove('active')); document.querySelectorAll('iframe.page-content').forEach(e => {e.classList.remove('active'); try {e.contentWindow.scrollTo(0,0)} catch {}}); this.classList.add('active'); document.getElementById('about-page').classList.add('active');">About me</button></li>
+			<li><button class="nav-button" onclick="document.querySelectorAll('button.nav-button').forEach(e => e.classList.remove('active')); document.querySelectorAll('iframe.page-content').forEach(e => {e.classList.remove('active'); try {e.contentWindow.scrollTo(0,0)} catch {}}); this.classList.add('active'); document.getElementById('projects-page').classList.add('active');">Projects</button></li>
 		</menu>
 		<address>
 			Contact: axisokk@gmail.com
