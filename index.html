@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<title>Axisok's website :))</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='css/normalize.css'>
+	<link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+</head>
+
+<body>
+	<nav>
+		<menu>
+			<li><button class="nav-button active" onclick="document.querySelectorAll('button.nav-button').forEach(e => e.classList.remove('active')); document.querySelectorAll('iframe.page-content').forEach(e => e.classList.remove('active')); this.classList.add('active'); p = document.getElementById('about-page'); p.classList.add('active'); p.contentWindow.scrollTo(0,0);">About me</button></li>
+			<li><button class="nav-button" onclick="document.querySelectorAll('button.nav-button').forEach(e => e.classList.remove('active')); document.querySelectorAll('iframe.page-content').forEach(e => e.classList.remove('active')); this.classList.add('active'); p = document.getElementById('projects-page'); p.classList.add('active'); p.contentWindow.scrollTo(0,0);">Projects</button></li>
+		</menu>
+		<address>
+			Contact: axisokk@gmail.com
+		</address>
+	</nav>
+	<iframe id="about-page" src="pages/about.html" class="page-content active" title="About page"></iframe>
+	<iframe id="projects-page" src="pages/projects.html" class="page-content" title="Projects page"></iframe>
+
+</body>
+
+</html>
