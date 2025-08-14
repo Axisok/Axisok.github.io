@@ -1,55 +1,39 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset='utf-8'>
-	<title>Projects page</title>
-	<meta name='viewport' content='width=device-width, initial-scale=1'>
-	<link rel='stylesheet' type='text/css' media='screen' href='../css/normalize.css'>
-	<link rel='stylesheet' type='text/css' media='screen' href='../css/main.css'>
-	<base target="_parent">
-</head>
+<article class="reverse">
+	<section class="size-6">
+		<h1 data-i18n-key="projects-quadtree-title">QuadTree Compression for ComputerCraft Videos</h1>
+		<p data-i18n-key="projects-quadtree-brief">A compression algorithm that converts and reduces the size of a video file very efficiently.
+			Made for a Minecraft mod that adds computers to the game, only supports binary videos (only 2 colors).
+		</p>
+		<p data-i18n-key="projects-quadtree-why">ComputerCraft, the mod in question, has a limit of 1 MB total size storage per computer in-game.
+			Naively storing pixels directly to bytes would be extremely wasteful, and even storing each pixel as a bit would still be very wasteful.
+			And for this resolution, there's simply not enough redundancy for most generic compression algorithms to work well.
+		</p>
+		<p data-i18n-key="projects-quadtree-detail">However, by seeing each frame as a quad tree structure and storing it in the shortest way possible, it's possible to considerably reduce file size.
+			This is overkill for most use cases, and binary videos won't have enough colors most of the time, which is why this method isn't good for many situations.
+			Still, it's a very efficient way to store videos for this one situation.
+		</p>
+		<p data-i18n-key="projects-quadtree-link">This project is open-source and the code can be found <a href="https://github.com/Axisok/qtccv">here</a>.
+		</p>
+	</section>
+	<section class="size-4 center flex-center">
+		<iframe src="https://www.youtube.com/embed/dX072A-QYKo" class="youtube-embed" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	</section>
+</article>
 
-<body>
-	<article class="reverse">
-		<section class="size-6">
-			<h1>QuadTree Compression for ComputerCraft Videos</h1>
-			<p>A compression algorithm that converts and reduces the size of a video file very efficiently.
-				Made for a Minecraft mod that adds computers to the game, only supports binary videos (only 2 colors).
-			</p>
-			<p>ComputerCraft, the mod in question, has a limit of 1 MB total size storage per computer in-game.
-				Naively storing pixels directly to bytes would be extremely wasteful, and even storing each pixel as a bit would still be very wasteful.
-				And for this resolution, there's simply not enough redundancy for most generic compression algorithms to work well.
-			</p>
-			<p>However, by seeing each frame as a quad tree structure and storing it in the shortest way possible, it's possible to considerably reduce file size.
-				This is overkill for most use cases, and binary videos won't have enough colors most of the time, which is why this method isn't good for many situations.
-				Still, it's a very efficient way to store videos for this one situation.
-			</p>
-			<p>This project is open-source and the code can be found <a href="https://github.com/Axisok/qtccv">here</a>.
-			</p>
-		</section>
-		<section class="size-4 center flex-center">
-			<iframe src="https://www.youtube.com/embed/dX072A-QYKo" class="youtube-embed" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-		</section>
-	</article>
-
-	<article>
-		<section class="size-6">
-			<h1>Shaped Clouds</h1>
-			<p>A fast dynamic clouds system, capable of rendering clouds of any shape and form.
-				Generates 2D noise based on textures, then renders that, or anything else, as clouds, using more detailed noise.
-				Meshes can be rendered as clouds, as well as any custom shaders and renderers.
-				Basically anything that can render to a camera can render as a cloud.
-			</p>
-			<p>I've been working on this for a very long time, so long that it's unrecognizable from when it started.
-				After rewriting all the code several times, beating my head around how to make it work on multiple Unity versions and a lot of bug hunting, I decided to make it an asset and try to sell it.
-				It's available <a href="https://assetstore.unity.com/packages/slug/297113">here</a>.
-			</p>
-		</section>
-		<section class="size-4 center flex-center">
-			<iframe src="https://www.youtube.com/embed/vpBaza8M8_U" class="youtube-embed" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-		</section>
-	</article>
-
-</body>
-
-</html>
+<article>
+	<section class="size-6">
+		<h1 data-i18n-key="projects-shaped-title">Shaped Clouds</h1>
+		<p data-i18n-key="projects-shaped-brief">A fast dynamic clouds system, capable of rendering clouds of any shape and form.
+			Generates 2D noise based on textures, then renders that, or anything else, as clouds, using more detailed noise.
+			Meshes can be rendered as clouds, as well as any custom shaders and renderers.
+			Basically anything that can render to a camera can render as a cloud.
+		</p>
+		<p data-i18n-key="projects-shaped-link">I've been working on this for a very long time, so long that it's unrecognizable from when it started.
+			After rewriting all the code several times, beating my head around how to make it work on multiple Unity versions and a lot of bug hunting, I decided to make it an asset and try to sell it.
+			It's available <a href="https://assetstore.unity.com/packages/slug/297113">here</a>.
+		</p>
+	</section>
+	<section class="size-4 center flex-center">
+		<iframe src="https://www.youtube.com/embed/vpBaza8M8_U" class="youtube-embed" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	</section>
+</article>

@@ -1,0 +1,14 @@
+{
+	"about": {
+		"i18n-key": "navbar-about",
+		"path": "/about"
+	},
+	"projects": {
+		"i18n-key": "navbar-projects",
+		"path": "/projects"
+	},
+	"blog": {
+		"i18n-key": "navbar-blog",
+		"path": "/blog"
+	}
+}

@@ -1,0 +1,12 @@
+[
+	{
+		"id": "en",
+		"path": "/json/lang/en.json",
+		"name": "English"
+	},
+	{
+		"id": "pt",
+		"path": "/json/lang/pt.json",
+		"name": "Português (Brasil)"
+	}
+]

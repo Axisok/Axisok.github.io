@@ -1,0 +1,30 @@
+{
+	"name": "Português (Brasil)",
+	"navbar-about": "Sobre mim",
+	"navbar-projects": "Projetos",
+	"navbar-blog": "Blog",
+	"navbar-contact": "Contato:",
+
+	"about-greet": "Olá!",
+	"about-intro": "Meu nome é Diogo Yoshiura Moreira (Axisok na maioria dos lugares), eu tenho escrevido código no meu tempo livre há uma década agora, e provavelmente vou continuar na próxima. Eu quis desenvolver jogos desde criança, e pelos últimos 4 anos, é o que fiz com Unity.",
+	"about-projects": "Ao longo dos anos, criei alguns projetos que me dão um certo orgulho, que mostrarei nesse website. Esses projetos não são necessariamente jogos (e no momento que escrevo, nenhum é), mas só projetos que fiz sem razão em particular, fora diversão. Eu também planejo oferecer (as vezes de graça) alguns assets em que estou trabalhando, que também serão encontrados aqui.",
+	"about-wip": "Atualmente, esse website ainda está em fase de construção, e eu não tenho muitos projetos bons o suficiente pra mostrar, também. Com sorte vai estar mais completo no futuro!",
+
+	"about-more": "Mais de mim",
+	"about-youtube": "Se você quer dar uma olhada nas outras coisas que eu fiz e vou fazer, você pode ir pro meu <a href=\"https://www.youtube.com/@Axisok\">canal no YouTube</a>. A maioria dos vídeos lá são coisas quaisquer de jogos, especialmente no último ano. Eu estou considerando abrir um segundo canal para conteúdo mais sério (ao invés de coisas aleatórias que eu quis postar na hora), mas eu não tenho certeza se eu estou pronto pro tempo que precisaria investir ainda.",
+	"about-github": "Você também pode ver meu <a href=\"https://github.com/Axisok\">perfil no GitHub</a>, mas não tem muita coisa lá, infelizmente. Eu não tenho o hábito de criar um repositório pra cada projeto meu, e eu com certeza não estou mantendo os projetos que já estão lá. Ainda assim, eu estou esperando preencher o perfil um pouco mais no futuro, já que já tenho algumas ideias em mente (ele diz, depois de não ter praticamente atividade alguma por meses depois que esse site foi originalmente criado).",
+	"about-contact": "Quaisquer perguntas, me contate em axisokk@gmail.com. Eu não prometo responder rápido, ou responder, mas eu vou dar meu melhor.",
+
+	"projects-quadtree-title": "QuadTree Compression for ComputerCraft Videos",
+	"projects-quadtree-brief": "Um algorítimo de compressão que converte e reduz o tamanho de um vídeo muito eficientemente. Feito para um mod de Minecraft que adiciona computadores ao jogo, só suporta vídeos binários (que só tem 2 cores).",
+	"projects-quadtree-why": "ComputerCraft, o mod mencionado, tem um limite total de 1 MB de armazenamento por computador dentro do jogo. Simplesmente converter pixeis para bytes seria extremamente ineficiente, e mesmo que cada pixel fosse um bit ainda seria muito ineficiente. E pra essa resolução, a falta de redundância simplesmente faz a maioria dos algoritmos genéricos não funcionar bem o suficiente.",
+	"projects-quadtree-detail": "No entanto, ao ver cada quadro do vídeo como uma quadtree e armazenando ela da forma mais eficiente que der, é possível consideravelmente reduzir o tamanho do arquivo. Isso é mais do que o necessário na maioria dos casos, e vídeos binários geralmente não teriam cores o suficiente pra quase qualquer caso de uso, o que limita a utilidade desse método. Mas ainda assim, é um jeito bem eficiente de armazenar vídeos nessa situação em particular.",
+	"projects-quadtree-link": "Esse projeto é de código aberto e pode ser encontrado <a href=\"https://github.com/Axisok/qtccv\">aqui</a>.",
+
+	"projects-shaped-title": "Shaped Clouds",
+	"projects-shaped-brief": "Um sistema rápido e dinâmico de nuvens, capaz de renderizar nuvens de qualquer formato. Gera noise 2D baseado em texturas e então renderiza isso, ou qualquer outra coisa, como nuvens; usando noise mais detalhado. Modelos 3D podem ser renderizados como nuvens, assim como shader personalizados e renderers. Basicamente qualquer coisa que pode ser renderizada para uma camera pode ser renderizada como nuvens.",
+	"projects-shaped-link": "Eu estive trabalhando nisso por muito tempo, tanto tempo que é irreconhecível comparado com como começou. Depois de reescrever tudo várias vezes, perder a minha alma fazendo funcionar em versões diferentes de Unity e gastar muito tempo consertando bugs, eu decidi fazer isso virar um asset e tentar vender. Está disponível <a href=\"https://assetstore.unity.com/packages/slug/297113\">aqui</a>.",
+
+	"404-title": "Oops!",
+	"404-para": "Desculpa! Eu não tenho a menor ideia de onde a página que você está procurando foi parar. Se você acha que isso foi um erro meu, por favor entre em contato comigo pra mim consertar isso!"
+}

@@ -1,0 +1,7 @@
+{
+	"/": "*/about",
+	"/index.html": "*/about",
+	"/about": "/pages/about.html",
+	"/projects": "/pages/projects.html",
+	"/404": "/pages/404.html"
+}
