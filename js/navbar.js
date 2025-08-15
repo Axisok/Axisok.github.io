@@ -17,7 +17,7 @@ axisok.updateNavbar = async () => {
 axisok.navbarBuilt = (async () => {
 	// Populate navbar buttons.
 	const nav = await axisok.promises.navbuttons;
-	for (k of Object.keys(nav)) {
+	for (let k of Object.keys(nav)) {
 		// The website isn't finished yet, so this is useful.
 		// I can make callback jokes.
 		if (!(await axisok.pathExists(nav[k].path))) continue;

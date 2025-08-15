@@ -65,8 +65,8 @@ axisok.fetchJSON = async (path) => {
 
 axisok.changePage = async (path) => {
 	axisok.page.innerHTML = await axisok.fetchPage(path);
-	await axisok.translateElement(axisok.page);
 	await axisok.updateNavbar();
+	await axisok.translateElement(axisok.page);
 };
 
 axisok.updatePage = async (event) => {

@@ -13,6 +13,8 @@ axisok.isLanguageSupported = async (language) => {
 
 axisok.changeLanguage = async (language) => {
 	const languages = await axisok.languages;
+	axisok.currentLanguageId = language;
+	localStorage.language = language;
 	return axisok.fetchJSON(languages.get(language).path);
 };
 
@@ -21,15 +23,21 @@ axisok.translateElement = async (element) => {
 
 	let elements = element.querySelectorAll("[data-i18n-key]");
 
-	for (e of elements) e.innerHTML = lang[e.getAttribute("data-i18n-key")];
+	for (let e of elements) e.innerHTML = lang[e.dataset.i18nKey];
 };
 
 axisok.currentLanguageId = (async () => {
 	// Tries to find a preferred language supported, and uses the first one found.
+	// Or, if a language was set previously, uses that.
 
 	let id;
 
-	for (l of navigator.languages) {
+	if (localStorage.language) {
+		axisok.currentLanguage = axisok.changeLanguage(localStorage.language);
+		return localStorage.language;
+	}
+
+	for (let l of navigator.languages) {
 		l = l.split("-", 2)[0];
 		if (axisok.isLanguageSupported(l)) {
 			axisok.currentLanguage = axisok.changeLanguage(l);
@@ -46,7 +54,7 @@ axisok.langselectElement = document.getElementById("language-select");
 (async () => {
 	// Create language selection buttons for supported languages.
 	const lang = await axisok.languages;
-	for (k of lang.keys()) {
+	for (let k of lang.keys()) {
 		const v = lang.get(k);
 
 		const element = document.createElement("option");
@@ -62,7 +70,6 @@ axisok.langselectElement = document.getElementById("language-select");
 
 	axisok.langselectElement.onchange = async (event) => {
 		axisok.currentLanguage = axisok.changeLanguage(event.target.value);
-		axisok.currentLanguageId = event.target.value;
 		axisok.translateElement(document);
 	};
 })();
