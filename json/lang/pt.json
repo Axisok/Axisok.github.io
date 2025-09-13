@@ -11,7 +11,7 @@
 	"about-wip": "Atualmente, esse website ainda está em fase de construção, e eu não tenho muitos projetos bons o suficiente pra mostrar, também. Com sorte vai estar mais completo no futuro!",
 
 	"about-more": "Mais de mim",
-	"about-youtube": "Se você quer dar uma olhada nas outras coisas que eu fiz e vou fazer, você pode ir pro meu <a href=\"https://www.youtube.com/@Axisok\">canal no YouTube</a>. A maioria dos vídeos lá são coisas quaisquer de jogos, especialmente no último ano. Eu estou considerando abrir um segundo canal para conteúdo mais sério (ao invés de coisas aleatórias que eu quis postar na hora), mas eu não tenho certeza se eu estou pronto pro tempo que precisaria investir ainda.",
+	"about-youtube": "Se você quer dar uma olhada nas outras coisas que eu fiz e vou fazer, você pode ir pro meu <a href=\"https://www.youtube.com/@Axisok\">canal no YouTube</a>. A maioria dos vídeos lá são coisas quaisquer de jogos, especialmente no último ano. Mas também contém alguns vídeos de testes que decidi compartilhar com o mundo, pro caso de alguém estar interessado neles.",
 	"about-github": "Você também pode ver meu <a href=\"https://github.com/Axisok\">perfil no GitHub</a>, mas não tem muita coisa lá, infelizmente. Eu não tenho o hábito de criar um repositório pra cada projeto meu, e eu com certeza não estou mantendo os projetos que já estão lá. Ainda assim, eu estou esperando preencher o perfil um pouco mais no futuro, já que já tenho algumas ideias em mente (ele diz, depois de não ter praticamente atividade alguma por meses depois que esse site foi originalmente criado).",
 	"about-contact": "Quaisquer perguntas, me contate em axisokk@gmail.com. Eu não prometo responder rápido, ou responder, mas eu vou dar meu melhor.",
 
@@ -24,6 +24,23 @@
 	"projects-shaped-title": "Shaped Clouds",
 	"projects-shaped-brief": "Um sistema rápido e dinâmico de nuvens, capaz de renderizar nuvens de qualquer formato. Gera noise 2D baseado em texturas e então renderiza isso, ou qualquer outra coisa, como nuvens; usando noise mais detalhado. Modelos 3D podem ser renderizados como nuvens, assim como shader personalizados e renderers. Basicamente qualquer coisa que pode ser renderizada para uma camera pode ser renderizada como nuvens.",
 	"projects-shaped-link": "Eu estive trabalhando nisso por muito tempo, tanto tempo que é irreconhecível comparado com como começou. Depois de reescrever tudo várias vezes, perder a minha alma fazendo funcionar em versões diferentes de Unity e gastar muito tempo consertando bugs, eu decidi fazer isso virar um asset e tentar vender. Está disponível <a href=\"https://assetstore.unity.com/packages/slug/297113\">aqui</a>.",
+	"projects-shaped-more": "Ler mais",
+	"projects-shaped-imgcredit": "<a href='https://skfb.ly/oEYOw'>\"Snowy Mountain V2 - Terrain\"</a> por artfromheath é licenciado com <a href='http://creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution</a>.",
+	"projects-shaped-imgcredit2": "<a href='https://www.blender.org/download/demo-files/'>\"Human Base Meshes v1.3.0\"</a> por Blender Studio e contribuições da comunidade é dedicado ao domínio público via <a href='https://creativecommons.org/publicdomain/zero/1.0/'>CC0</a>.",
+	"projects-shaped-imgcredit3": "<a href='https://skfb.ly/6CsuJ'>\"Building - beveled corners - shiny\"</a> por MozillaHubs é licenciado com <a href='http://creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution</a>.",
+
+	"projects-shaped-demo": "Demo na itch.io",
+
+	"shaped-goal-title": "Objetivo",
+	"shaped-goal-intro": "O objetivo principal desse sistema é performance sem perder muito em qualidade. É claro, um certo nível de sacrifício é inevitável, e isso toma forma com o efeito sendo 2D. Em outras palavras, essas nuvens não ocupam espaço real no mundo, e não podem projetar/receber sombras. Isso é algo que nuvens volumétricas seriam capazes de fazer, mas com um alto custo de performance.",
+	"shaped-goal-case": "Para a vasta maioria dos jogos, ter nuvens perfeitas ou ser capaz de voar por elas simplesmente não é um fator. A velocidade desse sistema significa que ele oferece um meio termo entre texturas rolando pelo céu e nuvens volumétricas. Não tem razão para usar nuvens volumétricas se o único benefício são as nuvens realistas. Além disso, o ponto principal desse sistema é que ele pode renderizar nuvens de qualquer forma. Isso é, inclusive, mais customização que a maioria dos sistemas volumétricos podem oferecer, especialmente considerando a performance que alcança em comparação.",
+
+	"shaped-features-title": "Características",
+	"shaped-features-1": "Gera nuvens de qualquer forma, tudo que puder ser renderizado para uma textura",
+	"shaped-features-2": "Gerenciado com MonoBehaviours para facilitar uso.",
+	"shaped-features-3": "Várias camadas com ordenação automática beaseada na altura das nuvens, assim como ordenação manual.",
+	"shaped-features-4": "Simples e fácil de começar a usar, mas permite customização profunda.",
+	"shaped-features-5": "Rápido. Rápido mesmo. Teste a demo acima.",
 
 	"404-title": "Oops!",
 	"404-para": "Desculpa! Eu não tenho a menor ideia de onde a página que você está procurando foi parar. Se você acha que isso foi um erro meu, por favor entre em contato comigo pra mim consertar isso!"

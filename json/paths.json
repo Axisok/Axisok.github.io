@@ -3,5 +3,6 @@
 	"/index.html": "*/about",
 	"/about": "/pages/about.html",
 	"/projects": "/pages/projects.html",
+	"/projects/shaped-clouds": "/pages/projects/shaped-clouds.html",
 	"/404": "/pages/404.html"
 }

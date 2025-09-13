@@ -11,7 +11,7 @@
 	"about-wip": "Currently, this website is still a work in progress, and I don't have that many projects worth showcasing, either. Hopefully it'll have more stuff at some point in the future!",
 
 	"about-more": "More from me",
-	"about-youtube": "If you want to find some of the other things I've done and will do, you can check out my personal <a href=\"https://www.youtube.com/@Axisok\">YouTube channel</a>. Most videos there are random gaming things, especially in the past year. I'm considering opening a second channel for more serious content (as opposed to random things I just wanted to post), but I'm not sure if I'm ready for the time investment just yet.",
+	"about-youtube": "If you want to find some of the other things I've done and will do, you can check out my personal <a href=\"https://www.youtube.com/@Axisok\">YouTube channel</a>. Most videos there are random gaming things, especially in the past year. But it also contains a few test videos I decided to share with the world, in case anyone is interested to see them.",
 	"about-github": "You can also check my <a href=\"https://github.com/Axisok\">GitHub profile</a>, but there isn't much to find there, unfortunately. I don't have the habit of making a repository for every single project of mine, and I'm definitely not maintaining any of the ones that are there. Still, I'm hoping to fill it a bit more in the future, as I already have a few projects in mind (he says, after not having basically any activity for months after this website was originally created).",
 	"about-contact": "For any questions, feel free to contact me through axisokk@gmail.com. I don't promise to answer quickly or at all, but I'll do my best.",
 
@@ -24,6 +24,23 @@
 	"projects-shaped-title": "Shaped Clouds",
 	"projects-shaped-brief": "A fast dynamic clouds system, capable of rendering clouds of any shape and form. Generates 2D noise based on textures then renders that, or anything else, as clouds; using more detailed noise. Meshes can be rendered as clouds, as well as any custom shaders and renderers. Basically anything that can render to a camera can render as a cloud.",
 	"projects-shaped-link": "I've been working on this for a very long time, so long that it's unrecognizable from when it started. After rewriting all the code several times, beating my head around how to make it work on multiple Unity versions and a lot of bug hunting, I decided to make it an asset and try to sell it. It's available <a href=\"https://assetstore.unity.com/packages/slug/297113\">here</a>.",
+	"projects-shaped-more": "Read more",
+	"projects-shaped-imgcredit": "<a href='https://skfb.ly/oEYOw'>\"Snowy Mountain V2 - Terrain\"</a> by artfromheath is licensed under <a href='http://creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution</a>.",
+	"projects-shaped-imgcredit2": "<a href='https://www.blender.org/download/demo-files/'>\"Human Base Meshes v1.3.0\"</a> by Blender Studio and community contributions is dedicated to the public domain via <a href='https://creativecommons.org/publicdomain/zero/1.0/'>CC0</a>.",
+	"projects-shaped-imgcredit3": "<a href='https://skfb.ly/6CsuJ'>\"Building - beveled corners - shiny\"</a> by MozillaHubs is licensed under <a href='http://creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution</a>.",
+
+	"projects-shaped-demo": "Demo on itch.io",
+
+	"shaped-goal-title": "Goal",
+	"shaped-goal-intro": "The main goal of this system is performance without compromising too much on quality. Of course, some degree of sacrifice is inevitable, and that takes the form of it being a 2D effect. In other words, these clouds don't occupy real space in the world, and can't cast/receive shadows. This is something a volumetric clouds system would be able to achieve, but at a great cost in performance.",
+	"shaped-goal-case": "For a vast majority of games, having super accurate clouds or being able to fly through them is simply not a factor. The speed of this system means it provides a middle ground between just scrolling some textures on the sky and using volumetric, accurate clouds. There's no reason to use a volumetric clouds solution if the only benefit is realistic clouds. In addition, the key feature of these clouds is that they can be shaped in any way the user wants to. This is, in fact, more customization than most volumetric systems can provide, especially considering the performance it achieves in comparison.",
+
+	"shaped-features-title": "Features",
+	"shaped-features-1": "Generate clouds of any shape, anything that can render to a texture.",
+	"shaped-features-2": "Managed through MonoBehaviours for easier use.",
+	"shaped-features-3": "Multiple layers with automatic sorting based on cloud height, as well as manual sorting.",
+	"shaped-features-4": "Simple and easy to get started, but allows for deep customization.",
+	"shaped-features-5": "Fast. Really fast. Check out the demo above.",
 
 	"404-title": "Oops!",
 	"404-para": "Sorry! I have absolutely no idea about where the page you're looking for is. If you think that's a mistake on my part, please do contact me about it so I can come fix it up!"

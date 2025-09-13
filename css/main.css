@@ -98,16 +98,16 @@ nav > address {
 
 /* Actual pages */
 main {
-	width: 100%;
-	flex-grow: 1;
-	overflow: scroll;
+	width: 60%;
+	margin: auto;
+	display: block;
+	background-color: aliceblue;
 }
 
 .page-content {
-	width: 60%;
-	margin: auto;
-	border: none;
-	display: block;
+	width: 100%;
+	flex-grow: 1;
+	overflow: scroll;
 }
 
 .youtube-embed {
@@ -154,6 +154,12 @@ p {
 	margin-bottom: 1em;
 }
 
+p.caption {
+	margin-bottom: 0;
+	color: gray;
+	font-size: .8em;
+}
+
 img {
 	width: 100%;
 	max-width: 500px;
@@ -170,13 +176,27 @@ a {
 	color: crimson;
 }
 
+.page-button {
+	display: block;
+	width: 100%;
+	text-align: center;
+	background-color: #4527a0;
+	color: aliceblue;
+	font-size: 1.25em;
+	font-weight: bold;
+	padding: 12px;
+	border: none;
+	cursor: pointer;
+	text-decoration: none;
+}
+
 @media only screen and (max-width: 1280px) {
 	nav {
 		padding-left: 5%;
 		padding-right: 5%;
 	}
 
-	.page-content {
+	main {
 		width: 768px;
 	}
 }
@@ -207,11 +227,11 @@ a {
 	}
 
 	main {
-		overflow: inherit;
+		width: 100%;
 	}
 
 	.page-content {
-		width: 100%;
+		overflow: inherit;
 	}
 
 	article {

@@ -63,10 +63,24 @@ axisok.fetchJSON = async (path) => {
 	return window.axisok.json.get(path);
 };
 
+axisok.createLinks = async (element) => {
+	let elements = element.querySelectorAll("button.inside-link");
+	for (let e of elements)
+		e.onclick = async (event) => {
+			const [pathname, path] = await axisok.localRoute(
+				e.getAttribute("href"),
+			);
+			axisok.changePage(path);
+			history.pushState(null, "", pathname);
+		};
+
+}
+
 axisok.changePage = async (path) => {
 	axisok.page.innerHTML = await axisok.fetchPage(path);
 	await axisok.updateNavbar();
 	await axisok.translateElement(axisok.page);
+	await axisok.createLinks(axisok.page);
 };
 
 axisok.updatePage = async (event) => {
